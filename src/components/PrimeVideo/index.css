@@ -1,1 +1,24 @@
-/* Write your CSS here */
+.prime-video-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.prime-video-image {
+  width: 100%;
+}
+
+.prime-video-movies-container {
+  flex-grow: 1;
+  background: #000;
+  padding: 0 25px 45px 25px;
+}
+
+.movie-category-title {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
